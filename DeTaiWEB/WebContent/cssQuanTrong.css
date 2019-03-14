@@ -1,0 +1,404 @@
+#ngonNgu{
+	
+
+float:right;
+margin-top:60px;
+}
+.navbar-text{
+	color: white;
+}
+#ngonNgu a{
+	color: gray;
+display:block;
+direction:rtl;
+	height:30px;
+	text-decoration: none;
+}
+#ngonNgu form{
+	display: none;
+	
+}
+#khungMenu{
+
+	height:170px;
+	margin-bottom: 50px;
+}
+
+.modal-body{
+	
+	text-align: center;
+}
+
+.myList>li>a{
+	transition:0.5s background-color;
+	color: white;
+}
+
+.myList>li>a:hover{
+	background-color: #07b5ef;
+	
+}
+nav{
+	
+	width:100%;
+	
+	margin:0 auto;
+	z-index:50;
+	background-color:#07b5ef;
+	
+}
+#slogan span{
+	margin-left:30px;
+}
+nav ul li a{
+	transition:0.4 color;
+}
+nav ul li a:hover{
+	color: red;
+}
+body{
+
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   
+		
+
+}
+
+nav ul>li a{
+color: gray;
+}
+nav ul>li p{
+color: gray;
+
+}
+#navbaritem li{
+	min-width: 100px;
+}
+.navbar-right li{
+	min-width: 100px;
+}
+  #listGioHang{
+  display:none;
+ 
+  position: absolute; 
+ right:0px;
+  z-index: 51;
+  background-color: white;
+  border: 1px solid #d2dbd4;
+  }
+ 
+  #gioHang{
+float:right;
+  width: 200px;
+ position: relative;
+  }
+  #gioHang:hover #listGioHang{
+  display: block;
+  }
+
+#khungToanTheWeb{
+	width: 1200px;
+
+ margin-left: auto;
+ margin-right: auto;
+   box-shadow: 0px 3px #cbd3cb;
+}
+.opacity{
+opacity:0.5;
+}
+#sanPhamBanChay{
+	margin-left:20px;
+	 background-color: white;
+float:left;
+width:15%;
+height:500px;
+}
+ .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 30%;
+      margin: auto;
+  }
+
+  #sanPhamMoi{
+width: 1200px;
+  height:280px;
+
+margin-bottom:30px;
+  background-color: #07b5ef;
+ 
+	text-align: center;
+ 
+  }
+
+   #sanPhamMoi>div p{
+	   color:white;
+	   
+   }
+   #sanPhamMoi>div img{
+   transition:0.5s transform;
+   }
+    #sanPhamMoi>div img:hover{
+		  -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari */
+    transform: scale(1.1);
+		
+	}
+  #tieudeSPMoi{
+	  position:relative;
+	  top:0px;
+	
+	  width:250px;
+	  
+  }
+    #tieudeSPMoi img{
+		position:absolute;
+		top:-20px;
+		right:0px;
+	}
+	marquee{
+	font-size: 20px;
+	color: green;
+	}
+
+   #addForAdmin{
+  display: none;
+  }
+  #sanPhamMoi p {
+   text-align:center;
+  }
+
+ 
+  #khungDanhSach{
+float:left;
+  width:240px;
+margin-right:30px;
+
+ background: #07b5ef;
+ box-shadow: 0px 3px #cbd3cb;
+
+  }
+  #tieuDeDanhSach{
+
+  }
+
+  #khungDanhSach div{
+	  border-bottom:1px dotted #d2dbd4;
+	  
+	 padding:10px;
+  }
+  #khungDanhSach div a{
+	  color:white;
+  }
+  
+  #sanPhamNoiBat{
+ 
+  border:1px solid #d2dbd4;
+
+  width:250px;
+  float:right;
+ 
+  margin-bottom:20px;
+ box-shadow: 0px 3px #cbd3cb;
+
+  
+  }
+  #khungTieuDe,#tieuDehotLine,#tieuDeSanPhamNoiBat,#tieuDeKienTruc,#tieuDeNhanVat,#tieuDeNenXem,#tieuDeChiTiet{
+		text-align: center;
+	  background:#07b5ef;
+	margin:0px 0px 20px 0px;
+	padding:0px;
+	
+  }
+  #khungTieuDe h3,#tieuDehotLine h3,#tieuDeSanPhamNoiBat h3,#tieuDeKienTruc h3,#tieuDeNhanVat h3,#tieuDeNenXem h3,#tieuDeChiTiet h3{
+ margin:0px 0px 0px 10px;
+	padding:10px 0px 10px 0px;
+
+  }
+ #mainDetailProduct{
+ padding-left: 8px;
+ }
+ #detailKT, #detailNV{
+ padding-left: 28px;
+ }
+ #detailForEachType{
+ 
+ }
+  #hotLine{
+	  border:1px solid #d2dbd4;
+	  height:340px;
+
+  width:250px;
+  float:right;
+  box-shadow: 0px 3px #cbd3cb;
+	 	text-align: center; 
+  }
+  #hitCounter{
+text-align:center;
+ background-image:url("image/images.jpg");
+  float:right;
+    width:250px;
+    height: 100px;
+    border:1px solid #d2dbd4;
+      box-shadow: 0px 3px #cbd3cb;
+      margin-top:20px;
+  }
+   #quangCao{
+	  height:300px;
+	  width:100%;
+	  float:right;
+	  margin-bottom:20px;
+	  background-image:url("image/backGroundadv.jpg");
+	  background-repeat:no-repeat;
+	  margin-left:20px;
+	
+  }
+  #khungPhone{
+	  background:#4f0de8;
+	  width:90%;
+	  color:white;
+	
+	 
+  }
+  marquee{
+padding-bottom:25px;
+  }
+  #quangCao{
+	  height:300px;
+	  
+	  margin-bottom:20px;
+	  background-image:url("image/backGroundadv.jpg");
+	  background-repeat:no-repeat;
+	  margin-left:20px;
+	
+  }
+   #quangCao p{
+	   color:#dded08;
+	   text-align:center;
+	   font-size:50px;
+	  
+   }
+#khungKienTruc,#khungNhanVat{
+	min-height:1100px;
+	 box-shadow: 0px 3px #cbd3cb;
+	margin-bottom:20px;
+   background-color: white;
+float:left;
+   width:100%;
+border:1px solid #d2dbd4;
+
+position: relative;
+	
+	text-align: center;
+}
+#khungChiTiet{
+	 box-shadow: 0px 3px #cbd3cb;
+	margin-bottom:20px;
+   background-color: white;
+float:left;
+   width:920px;
+border:1px solid #d2dbd4;
+
+position: relative;
+min-height:1100px;
+	text-align: center;
+}
+
+
+
+#sanPhamNenXem{
+	float:right;
+ box-shadow: 0px 3px #cbd3cb;
+	width:100px;
+	height:900px;
+	  margin-right:40px;
+
+	  margin-top:20px;
+}
+
+
+
+   #formDangNhap{
+   position: relative;
+   }
+     #formDangKy{
+   position: relative;
+ 
+   }
+   #signUp{
+     height: 150px;
+ color: #0cce8a;
+   position: absolute;
+   left: 0px;
+   display: none;
+   z-index: 51;
+   }
+    #formDangKy:hover #signUp{
+display: block;
+    }
+  
+
+.hidden{
+     opacity:0;
+}
+.visible{
+     opacity:1;
+}
+  #tieuDe{
+  height:150px;
+  }
+
+  #danhSachMatHang{
+  box-shadow: 0px 3px #cbd3cb;
+   background-color: white;
+float:left;
+   width:935px;
+border:1px solid #d2dbd4;
+
+margin-bottom:20px;
+min-height:1100px;
+position: relative;
+	text-align: center;
+  }
+
+	
+ #phanTrangMain,#phanTrangKT,#phanTrangHM,#phanTrangTree,#phanTrangKyQuan,#phanTrangNVHH,#phanTrangAnimal,#phanTrangShrine,#phanTrangLvHouse,#phanTrangEuropaST{
+position:absolute;
+
+ bottom:0px;
+ right:10px;
+ }
+ .mainProduct, .StructureProduct, .HumanProducts, .CartoonProducts, .WOTWProducts, .TreeProducts, .CarProducts, .AnimalProducts, .ShrineProducts, .EuropaSTProducts, .LivingHouseProducts{
+width:204px; height:450px; float:left;margin-left: 20px; margin-bottom:20px; display:none; transition:0.5s border;  border: 1px solid #e3e8e3; background-color: #eff7ef;
+ }
+ .mainProduct>img, .StructureProduct>img, .HumanProducts>img, .CartoonProducts>img, .WOTWProducts>img, .TreeProducts>img, .CarProducts>img, .AnimalProducts>img, .ShrineProducts>img, .EuropaSTProducts>img, .LivingHouseProducts>img{
+ margin-bottom: 50px;
+ 
+ }
+ .mainProduct>img:hover, .StructureProduct>img:hover, .HumanProducts>img:hover, .CartoonProducts>img:hover, .WOTWProducts>img:hover, .TreeProducts>img:hover, .CarProducts>img:hover, .AnimalProducts>img:hover, .ShrineProducts>img:hover, .EuropaSTProducts>img:hover, .LivingHouseProducts>img:hover{
+ border-bottom: 1px solid #07b5ef;
+ }
+ #OrderButton{
+ background: white;
+ border: 1px solid #dce5dc;
+ transition:0.5s background;
+display: block;
+ margin: 0 auto;
+ }
+ .mainProduct:hover, .StructureProduct:hover, .HumanProducts:hover, .CartoonProducts:hover, .WOTWProducts:hover, .TreeProducts:hover, .CarProducts:hover, .AnimalProducts:hover, .ShrineProducts:hover, .EuropaSTProducts:hover, .LivingHouseProducts:hover{
+ border: 1px solid #07b5ef;
+ }
+ .mainProduct:hover #OrderButton, .StructureProduct:hover #OrderButton, .HumanProducts:hover #OrderButton, .CartoonProducts:hover #OrderButton, .WOTWProducts:hover #OrderButton, .TreeProducts:hover #OrderButton, .CarProducts:hover #OrderButton, .AnimalProducts:hover #OrderButton, .ShrineProducts:hover #OrderButton, .EuropaSTProducts:hover #OrderButton, .LivingHouseProducts:hover #OrderButton{
+ background: #07b5ef;
+border: none;
+ }
+ #divForEachParts{
+ 	width: 1200px;
+
+ margin-left: auto;
+ margin-right: auto;
+   
+ }
+ 

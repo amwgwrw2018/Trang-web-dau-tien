@@ -1,0 +1,82 @@
+
+		
+
+			#wrapper {
+		  margin-bottom:20px;
+  width:75%;
+
+ float:right;
+z-index: 50;
+
+			}
+			
+			#carousel {
+				
+			}
+			#carousel div {
+				text-align: center;
+			
+				
+				padding: 0 20px;
+				float: left;
+				position: relative;
+			}
+
+			#carousel div span {
+				display: none;
+			}
+			#carousel div:hover span,
+			#carousel div.hover span {
+				background-color: #333;
+				color: #fff;
+				display: inline-block;
+				width: 100px;
+				padding: 2px 0;
+				margin: 0 0 0 -50px;
+				position: absolute;
+				bottom: 0;
+				left: 50%;
+				border-radius: 3px;
+			}
+			#pager {
+				text-align: center;
+				padding-top: 20px;
+			}
+			#pager a {
+				background: #ccc;
+				display: inline-block;
+				border-radius: 5px;
+				width: 10px;
+				height: 10px;
+				margin: 0 2px;
+			}
+			#pager a.selected {
+				background: #999;
+			}
+			#pager a:hover {
+				background: #666;
+			}
+			#pager a span {
+				display: none;
+			}
+			
+			#donate-spacer {
+				height: 100%;
+			}
+			#donate {
+				width: 750px;
+				padding: 50px 75px;
+				margin: 0 auto;
+				overflow: hidden;
+			}
+			#donate p, #donate form {
+				margin: 0;
+				float: left;
+			}
+			#donate p {
+				width: 650px;
+			}
+			#donate form {
+				width: 100px;
+			}
+	
